@@ -1,0 +1,8 @@
+sio\leo\projetconservatoire\App.class
+sio\leo\projetconservatoire\Discipline.class
+sio\leo\projetconservatoire\AccueilController.class
+sio\leo\projetconservatoire\modele\CrudConnexion.class
+module-info.class
+sio\leo\projetconservatoire\Eleve.class
+sio\leo\projetconservatoire\Partition.class
+sio\leo\projetconservatoire\modele\DAO.class

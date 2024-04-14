@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sio.leo.projetconservatoire.SaisirPartitionsController">
+   <children>
+      <Label layoutX="87.0" layoutY="24.0" text="Veuillez saisir une partition ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNomPart" layoutX="92.0" layoutY="104.0" prefHeight="25.0" prefWidth="209.0" />
+      <TextField fx:id="tfAutPart" layoutX="92.0" layoutY="188.0" prefHeight="25.0" prefWidth="209.0" />
+      <Label layoutX="127.0" layoutY="73.0" text="Nom de la partition">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="139.0" layoutY="155.0" text="Nom de l'auteur">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="169.0" layoutY="243.0" mnemonicParsing="false" onAction="#addToPartitions" text="Ajouter" />
+   </children>
+</AnchorPane>
